@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ $(id -u) = $(id -u guillaume) ] then chown betty hello fi
+if [ $(id -u) = $(id -u betty) ] then chown guillaume hello fi
