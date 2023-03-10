@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ $(id -u) = $(id -u guillaume) ] then chown betty hello fi
