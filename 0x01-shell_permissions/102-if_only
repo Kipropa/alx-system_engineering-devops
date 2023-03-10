@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ $(id -u) = $(id -u betty) ] then chown guillaume hello fi
+if [ $(stat -c %U hello) = "guillaume" ] then chown betty hello fi
